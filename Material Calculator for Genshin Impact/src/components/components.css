@@ -53,8 +53,20 @@ button{
 
 .result-container{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     margin-top: 20px;
     color: white;
+}
+
+.talent-img{
+    height: 140px;
+    width: 140px;
+}
+
+.green, .blue, .purple{
+    padding: 2px;
+    background-color: #2F383B;
+    text-align: center;
+    border-radius: 10px;
 }

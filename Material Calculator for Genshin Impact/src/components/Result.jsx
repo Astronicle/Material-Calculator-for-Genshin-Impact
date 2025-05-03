@@ -1,5 +1,8 @@
 import React from 'react';
 import talent_mats from './talent_mats';
+import green from '../assets/green.png';
+import blue from '../assets/blue.png';
+import purple from '../assets/purple.png';
 
 function Result({ talent1, talent2, talent3 }) {
     const [greenCount, setGreenCount] = React.useState(0);
@@ -43,9 +46,18 @@ function Result({ talent1, talent2, talent3 }) {
             </button>
             {shouldRender && (
                 <div className="result-container">
-                    <p>Green: {greenCount}</p>
-                    <p>Blue: {blueCount}</p>
-                    <p>Purple: {purpleCount}</p>
+                    <div className='green'>
+                        <div>Green : {greenCount}</div>
+                        <img className='talent-img' src={green}></img>
+                    </div>
+                    <div className='blue'>
+                        <div>Blue : {blueCount}</div>
+                        <img className='talent-img' src={blue}></img>
+                    </div>
+                    <div className='purple'>
+                        <div>Purple : {purpleCount}</div>
+                        <img className='talent-img' src={purple}></img>
+                    </div>
                 </div>
             )}
         </>
