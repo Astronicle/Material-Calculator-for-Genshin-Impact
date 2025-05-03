@@ -1,0 +1,46 @@
+*{
+    font-family: 'GenshinFont';
+}
+
+@font-face {
+    font-family: 'GenshinFont';
+    src: url('/fonts/zh-cn.ttf') format('truetype');
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #DEB76C;
+    color: #1B1D24;
+    font-size: x-large;
+}
+
+body{
+    background-color: #1B1D24;
+}
+
+.talent-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.talent{
+    color: white;
+    background-color:#2F383B;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+button{
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+}
