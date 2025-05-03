@@ -1,6 +1,7 @@
 import './components.css'
 import React from 'react'
 import talent_levels from './talent_levels'
+import Result from './Result'
 
 function Calculator() {
     
@@ -51,6 +52,7 @@ function Calculator() {
                     {talent3_buttons}
                     </div>
             </div>
+            <Result talent1={talent1} talent2={talent2} talent3={talent3}/>
         </>
     )
 }

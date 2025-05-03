@@ -44,3 +44,17 @@ button{
     padding: 10px;
     margin: 10px;
 }
+
+.calc-button{
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-top: 3%;
+}
+
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
