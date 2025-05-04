@@ -70,3 +70,34 @@ button{
     text-align: center;
     border-radius: 10px;
 }
+
+@media (max-width: 480px) {
+    .navbar-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .talent-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .talent{
+        width: 100%;
+        margin: 0.625rem 0;
+    }
+    .calc-button{
+        margin-left: 30%;
+        margin-right: 20%;
+        margin-top: 1.25rem;
+    }
+    .result-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .talent-img{
+        height: 5rem;
+        width: 5rem;
+    }
+    .author{
+        margin-top: 1.563rem;
+    }
+}

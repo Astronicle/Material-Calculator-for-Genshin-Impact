@@ -4,8 +4,8 @@ function Navbar() {
     return (
         <>
             <div className='navbar-container'>
-                <div>Material Calculator for Genshin Impact</div>
-                <div>Made by Astronicle (find me on Discord!)</div>
+                <div className='title'>Material Calculator for Genshin Impact</div>
+                <div className='author'>Made by Astronicle (find me on Discord!)</div>
             </div>
 
         </>
