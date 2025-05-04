@@ -101,3 +101,59 @@ button{
         margin-top: 1.563rem;
     }
 }
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .navbar-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .talent-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .talent{
+        width: 100%;
+        margin: 0.625rem 0;
+    }
+    .calc-button{
+        margin-left: 30%;
+        margin-right: 20%;
+        margin-top: 1.25rem;
+    }
+    .result-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .talent-img{
+        height: 6.25rem;
+        width: 6.25rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .navbar-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .talent-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .talent{
+        width: 18.75rem;
+        margin: 0.625rem 0.625rem;
+    }
+    .calc-button{
+        margin-left: 45%;
+        margin-right: 40%;
+        margin-top: 3%;
+    }
+    .result-container{
+        flex-direction: row;
+        align-items: center;
+    }
+    .talent-img{
+        height: 8.75rem;
+        width: 8.75rem;
+    }
+}
